@@ -1,4 +1,4 @@
-//        FIND WOVELS
+//----------------FIND WOVELS
 
 // function findWovels(str) {
 //   let countWovels = 0;
@@ -43,6 +43,8 @@
 // }
 
 // console.log(sortedNums([3, 6, 2, 8, 7]));
+
+
 
 //       SUM OF ALL NUMBERS
 
