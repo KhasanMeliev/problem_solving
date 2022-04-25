@@ -4,7 +4,7 @@
 // JavaScript Program to Find the Largest Among Three Numbers ✅
 // JavaScript Program to Find the Factorial of a Number ✅
 // JavaScript Program to Print the Fibonacci Sequence
-// JavaScript Program to Remove Duplicates From Array
+// JavaScript Program to Remove Duplicates From Array✅
 // JavaScript Program to Validate An Email Address
 // JavaScript Program to Convert Date to Number ✅
 // JavaScript Program to Convert Kilometers to Miles ✅
@@ -129,13 +129,13 @@
 
 //------------------Remove Duplicate from Array
 
-function removeDuplicate(a) {
-  let b = [];
-  for (let i = 0; i < a.length; i++) {
-    if (b.indexOf(a[i]) === -1) {
-      b.push(a[i]);
-    }
-  }
-  return b;
-}
-console.log(removeDuplicate([1, 2, 4, 2, 3, 1, 4]));
+// function removeDuplicate(a) {
+//   let b = [];
+//   for (let i = 0; i < a.length; i++) {
+//     if (b.indexOf(a[i]) === -1) {
+//       b.push(a[i]);
+//     }
+//   }
+//   return b;
+// }
+// console.log(removeDuplicate([1, 2, 4, 2, 3, 1, 4]));
