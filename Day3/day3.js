@@ -74,7 +74,7 @@
 //     hobby: "coding",
 //   };
 
-   //   const result = { ...user };
+//   //   const result = { ...user };
 //   //   const result = Object.assign({}, user);
 // //   const result = JSON.parse(JSON.stringify(user));
 //   return result;
@@ -124,3 +124,12 @@
 // console.log(fibonacci(4));
 // //output = 0,1,1,2
 
+
+//---------------------Convert object to String--------------------------
+// const obj = {
+//   name: "hasan",
+//   age: 13,
+//   hobby: "coding",
+// };
+// const jsonData = JSON.stringify(obj);
+// console.log(jsonData);
