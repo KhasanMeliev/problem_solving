@@ -140,3 +140,11 @@
 // }
 // console.log(removeDuplicate([1, 2, 4, 2, 3, 1, 4]));
 
+// function convertCtoF(celcius) {
+//   let farenheit = celcius * 1.8 + 32;
+//   return farenheit;
+// }
+// console.log(convertCtoF(30));
+// //output = 86
+
+
