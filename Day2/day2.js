@@ -140,11 +140,10 @@
 // }
 // console.log(removeDuplicate([1, 2, 4, 2, 3, 1, 4]));
 
+//-------------Convert Celsius to farenheit
 // function convertCtoF(celcius) {
 //   let farenheit = celcius * 1.8 + 32;
 //   return farenheit;
 // }
 // console.log(convertCtoF(30));
 // //output = 86
-
-
