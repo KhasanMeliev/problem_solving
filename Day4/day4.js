@@ -106,3 +106,13 @@
 //   return result;
 // }
 // console.log(performIntersection(array1, array2));
+//----------------second way-----------
+// const array1 = [1, 2, 3, 5, 9];
+// const array2 = [1, 3, 5, 8];
+// function performIntersection(arr1, arr2) {
+//   const result = arr1.filter((x) => {
+//     return arr2.indexOf(x) !== -1;
+//   });
+//   return result;
+// }
+// console.log(performIntersection(array1, array2));
