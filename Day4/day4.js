@@ -133,6 +133,3 @@
 //   return result;
 // }
 // console.log(performIntersection(array1, array2));
-
-
-//day4
