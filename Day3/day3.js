@@ -1,11 +1,11 @@
-// Javascript Program to Check if a number is Positive, Negative, or Zero ✅
-// JavaScript Program to Check Prime Number ✅
-// JavaScript Program to Create Objects in Different Ways ✅
-// JavaScript Program to Remove a Property from an Object ✅
-// JavaScript Program to Clone a JS Object ✅
-// JavaScript Program to Loop Through an Object ✅
-// JavaScript Program to Merge Property of Two Objects ✅
-// JavaScript Program to Convert Objects to Strings
+// Javascript Program to Check if a number is Positive, Negative, or Zero✅
+// JavaScript Program to Check Prime Number✅
+// JavaScript Program to Create Objects in Different Ways✅
+// JavaScript Program to Remove a Property from an Object✅
+// JavaScript Program to Clone a JS Object✅
+// JavaScript Program to Loop Through an Object✅
+// JavaScript Program to Merge Property of Two Objects✅
+// JavaScript Program to Convert Objects to Strings✅
 
 //---------------------------Check if a number is Positive, Negative or Zero---------------------
 // function checkPorNorZero(num) {
@@ -54,20 +54,17 @@
 // console.log(obj1);
 
 //-------------------------Remove a Property from an Object---------------------------
-// function removeProperty() {
 //   const user = {
 //     name: "hasan",
 //     age: 13,
 //     hobby: "coding",
 //   };
 //   delete user.hobby;
-//   return user;
-// }
-// console.log(removeProperty());
+
+// console.log(user);
 
 //------------------------Clone a JS Object---------------------
 
-// function cloneJsObject() {
 //   const user = {
 //     name: "hasan",
 //     age: 13,
@@ -77,11 +74,9 @@
 //   //   const result = { ...user };
 //   //   const result = Object.assign({}, user);
 // //   const result = JSON.parse(JSON.stringify(user));
-//   return result;
-// }
-// console.log(cloneJsObject());
+// console.log(user);
 
-//--------------------Loop Through Object
+//--------------------Loop Through Object--------------------
 // function loopThrough() {
 //   const user = {
 //     name: "hasan",
@@ -96,34 +91,34 @@
 // loopThrough();
 
 //----------------------Merge Property of two Object---------------------
-// function mergeObject() {
-//   const user = {
-//     name: "hasan",
-//     age: 13,
-//   };
-//   const userHobby = {
-//     hobby: "coding",
-//   };
-//   const result = { ...user, ...userHobby };
-//   return result;
-// }
+// const user = {
+//   name: "hasan",
+//   age: 13,
+// };
+// const userHobby = {
+//   hobby: "coding",
+// };
+// const merge = { ...user, ...userHobby };
 
-// console.log(mergeObject());
+// console.log(merge);
 
+//-----------------------------Fibonacci---------------------
 // function fibonacci(num) {
 //   let n1 = 0;
 //   let n2 = 1;
 //   let nextTerm;
-//   for (let i = 1; i <= num; i++) {
-//     console.log(n1);
-//     nextTerm = n1 + n2;
-//     n1 = n2;
-//     n2 = nextTerm;
+//   if (num < 2) {
+//     return false;
+//   } else {
+//     for (let i = 1; i < num; i++) {
+//       console.log(n1);
+//       nextTerm = n1 + n2;
+//       n1 = n2;
+//       n2 = nextTerm;
+//     }
 //   }
 // }
 // console.log(fibonacci(4));
-// //output = 0,1,1,2
-
 
 //---------------------Convert object to String--------------------------
 // const obj = {
